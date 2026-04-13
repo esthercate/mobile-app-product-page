@@ -5,6 +5,8 @@ import { testimonialsCarousel  } from './testimonials.data';
 import Card from '@/components/ui/Card';
 import Container from '@/components/ui/Container';
 import SectionHeader from '@/components/ui/SectionHeader';
+import { FaStar } from 'react-icons/fa';
+
 export function TestimonialCarousel() {
 	return (
 		<section className="py-20 overflow-hidden">
@@ -53,7 +55,9 @@ export function TestimonialCarousel() {
 									<div className="flex gap-1">
 										{Array.from({ length: testimonial.rating || 5 }).map(
 											(_, i) => (
-												<span key={i}>⭐</span>
+												<span key={i}>
+													<FaStar className="text-primary" />
+												</span>
 											),
 										)}
 									</div>
