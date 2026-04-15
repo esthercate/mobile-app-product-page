@@ -4,41 +4,40 @@
 
 :root {
   /* Base */
-  --background: #ffffff;
-  --foreground: #0f172a;
+  --background: #F3F7F4;
+  --foreground: #2E3D34;
 
   /* Surface */
-  --card: #ffffff;
-  --muted: #f1f5f9;
+  --card: #EAF1EC;
+  --muted: #E3ECE6;
 
   /* Borders */
-  --border: #e2e8f0;
+  --border: #D6E2DA;
 
   /* Brand */
-  --primary: #4f46e5; /* Change to your primary color */
-  
-  --primary-foreground: #ffffff;
+  --primary: #8FB996;
+  --primary-foreground: #1F2A24;
 
   /* Text */
-  --muted-foreground: #64748b;
-
+  --muted-foreground: #6F7F76;
 }
+
 
 /* Dark Mode */
 
 .dark {
-  --background: #020617;
-  --foreground: #f8fafc;
+  --background: #1E2A24;
+  --foreground: #E6EFE9;
 
-  --card: #0f172a;
-  --muted: #020617;
+  --card: #26352D;
+  --muted: #1A241F;
 
-  --border: #1e293b;
+  --border: #34463D;
 
-  --primary: #6366f1; /* Change to your primary color */
-  --primary-foreground: #ffffff;
+  --primary: #8FB996;
+  --primary-foreground: #0F1512;
 
-  --muted-foreground: #94a3b8;
+  --muted-foreground: #A7B5AC;
 }
 
 /* Theme Mapping */
