@@ -14,9 +14,9 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-	title: 'Avenue One',
+	title: 'Bible Study Companion',
 	description:
-		'Avenue One is a platform for creating and managing your business.',
+		'Bible Study Companion is a platform for creating and managing your Bible study plan.',
 };
 
 export default function RootLayout({
