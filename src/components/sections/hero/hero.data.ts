@@ -72,8 +72,9 @@ export const heroDefaultData: HeroDefaultData = {
 };
 
 export const heroMobileAppData: HeroMobileAppData = {
-	headline: 'Track Your Fitness Anywhere',
-	subheadline: 'Your personal fitness coach in your pocket.',
+	headline: 'Track Your Bible Study Anywhere',
+	subheadline:
+		'Your personal Bible study companion in your pocket. Create and manage your Bible Study Plan.',
 	image: '/images/mobile.png',
 	iosCTA: {
 		text: 'Download on iOS',
