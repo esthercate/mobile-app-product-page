@@ -22,9 +22,6 @@ const MobileMenu = ({ open, links }: Props) => {
 					{link.label}
 				</NavLink>
 			))}
-
-			<NavLink href="/login">Login</NavLink>
-
 			<Button
 				variant="primary"
 				className="w-full"
