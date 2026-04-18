@@ -7,10 +7,10 @@ import HeroMobileApp from '@/components/sections/hero/HeroMobileApp';
 import FeaturesSplit from '@/components/sections/features/FeaturesSplit';
 import Pricing from '@/components/sections/pricing/Pricing';
 import { TestimonialCarousel } from '@/components/sections/testimonials/TestimonialCarousel';
-import { PartnerMarquee } from '@/components/sections/partners/PartnerMarquee';
 import { Faq } from '@/components/sections/faq/Faq';
 import CTA from '@/components/ui/CTA';
 import HowItWorks from '@/components/sections/how-it-works/HowItWorks';
+import { Partner } from '@/components/sections/partners/Partner';
 
 export default function Home() {
 	return (
@@ -19,7 +19,7 @@ export default function Home() {
 			<HeroMobileApp />
 			<main className="flex-1 py-16 space-y-16">
 				<Container>
-					<PartnerMarquee />
+					<Partner />
 					<FeaturesSplit />
 					<HowItWorks />
 					<Pricing />
