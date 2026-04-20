@@ -8,9 +8,6 @@ export function Partner() {
 	return (
 		<section className="py-16">
 			<Container>
-				{/* Heading */}
-
-				{/* Logos */}
 				<div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
 					{logos.map((logo) => (
 						<div
