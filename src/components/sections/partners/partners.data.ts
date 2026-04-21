@@ -1,13 +1,11 @@
-export interface Logo {
+export interface Partner {
 	name: string;
-	src: string;
+	amount: string;
 }
 
-export const logos: Logo[] = [
-	{ name: 'Company 1', src: '/images/slack.jpeg' },
-	{ name: 'Company 2', src: '/images/slack.jpeg' },
-	{ name: 'Company 3', src: '/images/slack.jpeg' },
-	{ name: 'Company 4', src: '/images/slack.jpeg' },
-	{ name: 'Company 5', src: '/images/slack.jpeg' },
-	{ name: 'Company 6', src: '/images/slack.jpeg' },
+export const partnersData: Partner[] = [
+	{ name: 'Users', amount: '1,250' },
+	{ name: 'Downloads', amount: '1,100' },
+	{ name: 'Likes', amount: '1,000' },
+	{ name: '5 Stars Rating', amount: '905' },
 ];
