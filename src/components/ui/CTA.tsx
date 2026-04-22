@@ -7,7 +7,7 @@ const CTA = () => {
 		<section className="py-16">
 			<div className="bg-primary text-primary-foreground rounded-2xl p-10 text-center space-y-6">
 				<h2>Launch your online presence today</h2>
-				<p className="max-w-2xl mx-auto text-white/80!">
+				<p className="max-w-2xl mx-auto text-primary-foreground">
 					Get your website live in just one day. No complexity, no delays - just
 					a fast, clean launch.
 				</p>
