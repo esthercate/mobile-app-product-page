@@ -7,19 +7,20 @@ export type HowItWorksStep = {
 export const steps: HowItWorksStep[] = [
 	{
 		step: '01',
-		title: 'Choose your plan',
+		title: 'Choose your study plan',
 		description:
-			'Pick the package that fits your needs and get started instantly.',
+			'Select a Bible reading plan or create your own based on your goals.',
 	},
 	{
 		step: '02',
-		title: 'Submit your content',
+		title: 'Read and reflect',
 		description:
-			'Share your text, images, or let us help generate content for you.',
+			'Read your assigned chapter, take notes, and highlight key verses.',
 	},
 	{
 		step: '03',
-		title: 'Launch in a day',
-		description: 'We build and deliver your site fast — ready to go live.',
+		title: 'Track your progress',
+		description:
+			'Mark chapters as complete, review your notes, and stay consistent daily.',
 	},
 ];
