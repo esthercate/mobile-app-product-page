@@ -11,8 +11,8 @@ const HowItWorks = () => {
 		<section className="py-20 bg-background text-foreground">
 			<Container>
 				<SectionHeader
-					heading="Launch in 3 simple steps"
-					subheading="From idea to live website — fast, simple, and hassle-free."
+					heading="Get Started in 3 Easy Steps"
+					subheading="Track, reflect, and grow in your Bible study journey."
 				/>
 
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-10">
