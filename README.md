@@ -11,7 +11,7 @@ A modern, responsive landing page built with Next.js and Tailwind CSS for a Bibl
 
 ## Live Demo
 
-- [Live Link](https://m-pesa-expense-tracker.vercel.app/)
+- [Live Link](https://mobile-app-product-page.vercel.app/)
 
 
 ## Features Highlighted on the Landing Page
